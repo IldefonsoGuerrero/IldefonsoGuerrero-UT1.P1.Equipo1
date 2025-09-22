@@ -1,4 +1,6 @@
-    public static void main(String[] args) {
+import java.util.Scanner;
+
+public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
@@ -28,7 +30,7 @@
 
                         break;
                     case 3:
-
+                            Multiplicar(a, b);
                         break;
                     case 4:
 
@@ -48,6 +50,11 @@
 
         System.out.println("¡Gracias por usar el programa!");
         scanner.close();
+    }
+
+
+        public static int Multiplicar(int a, int b) {
+        return a * b;
     }
 
 
