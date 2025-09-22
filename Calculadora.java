@@ -22,16 +22,20 @@
 
                 switch (opcion) {
                     case 1:
-
+                        System.out.println("Resultado: " + sumar(a, b));
                         break;
                     case 2:
-
+                        
                         break;
                     case 3:
 
                         break;
                     case 4:
-
+                        try {
+                            System.out.println("Resultado: " + dividir(a, b));
+                        } catch (ArithmeticException e) {
+                            System.out.println("Error: " + e.getMessage());
+                        }
                         break;
                     case 5:
 
@@ -49,5 +53,15 @@
         System.out.println("¡Gracias por usar el programa!");
         scanner.close();
     }
+    
+    public static int sumar(int a, int b) {
+        return a + b;
+    }
 
+    public static double dividir(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("No se puede dividir entre cero");
+        }
+        return (double) a / b;
+    }
 
