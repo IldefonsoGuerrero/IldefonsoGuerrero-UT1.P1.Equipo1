@@ -25,7 +25,8 @@
 
                         break;
                     case 2:
-
+                            int resultadoResta = a - b;
+                            System.out.println("Resultado de la resta: " + resultadoResta);
                         break;
                     case 3:
 
