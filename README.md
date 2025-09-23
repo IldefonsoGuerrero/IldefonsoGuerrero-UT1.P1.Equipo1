@@ -35,7 +35,6 @@ Este repositorio contiene el desarrollo de una calculadora básica en Java como 
 
 - Java Development Kit (JDK) 17 o superior
 - Git instalado y configurado
-- IDE recomendado: IntelliJ IDEA, Eclipse o Visual Studio Code
 
 ## Resolución de conflictos
 
