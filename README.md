@@ -3,8 +3,8 @@
 Ildefonso, Daniel, Abraham
 Trabajo de;
 Ildefonso:Creación de el repositorio y el proyecto, creación rama sumadivisión
-Daniel:Instalacion y documentación de git, creación rama resta
-Abraham: creación rama multiplicar
+Daniel:Instalacion y creación del documento de git, creación rama resta
+Abraham: creación rama multiplicar, solución de errores
 =======
 # IldefonsoGuerrero-UT1.P1.Equipo1
 Ildefonso, Daniel, Abraham
