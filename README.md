@@ -38,7 +38,7 @@ Este repositorio contiene el desarrollo de una calculadora básica en Java como 
 
 ## Resolución de conflictos
 
-- Daniel:Conflicto al realizar el `merge` debido a lineas disruptivas en el codigo
+- Daniel: Conflicto al realizar el `merge` debido a lineas disruptivas en el codigo
 - Solución: editar con `nano`
 - Abraham e Ildefonso: Al realizar el `git pull` salta el fallo de que no se ha especificado como reconciliar las ramas
 - Solución: Usando el comando `git config pull.rebase false` para especificar el merge
